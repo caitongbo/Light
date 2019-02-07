@@ -10514,3 +10514,31 @@ body {
     font-size: 1.2em;
     line-height: 2;
 }
+
+/***微信鼠标悬停效果***/
+.weixin {
+    position: relative;
+}
+ 
+.weixin img.qrcode {
+  position: absolute;
+  z-index: 99;
+  top: -128px;
+  width: 7.5rem;
+  max-width: none;
+  height: 7.5rem;
+  transform: scale(0);
+  transform-origin: top right;
+  opacity: 0;
+  border: solid #5750e2f2;
+  border-radius: .25rem;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+ 
+}
+ 
+.weixin:hover img.qrcode {
+    transform: scale(1);
+    opacity: 1;
+}
