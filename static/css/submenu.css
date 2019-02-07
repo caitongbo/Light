@@ -1,0 +1,66 @@
+/*11.25 01：36*/
+
+.uk-card{
+    overflow: hidden;
+}
+.menu-item-has-children{
+    position: relative;
+
+}
+.menu-item-has-children:hover > .sub-menu{
+    color: rgba(255, 255, 255, 0.45);
+    opacity:1;
+    background: rebeccapurple;
+
+}
+.sub-menu{
+    color: #000;
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    right: 0;text-align: right;
+    background: rebeccapurple;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.sub-menu:before{
+    position: absolute;
+    content: ' ';
+    z-index: -1;
+    background: rebeccapurple;
+    left:0;top: 0;bottom: 0;
+    width: 200vh;
+}
+.sub-menu:after{
+    position: absolute;
+    content: ' ';
+    z-index: -1;
+    background: rebeccapurple;
+    right:0;top: 0;bottom: 0;
+    width: 1000vh;
+}
+.sub-menu li{
+    list-style: none;
+    box-sizing: border-box;
+    padding:0 0.8em;
+    line-height: 3;
+}
+.sub-menu li>a{
+    min-width: 10em;
+    display: inline-block;
+}
+
+ul.children {
+    list-style: none;
+}
+img.avatar.avatar-48.photo {
+    border-radius: 50%;
+}
+
+.uk-comment-list>.children .children{
+    padding-left: 0;
+}
+
+main>.uk-container-small {
+    z-index: 2;
+}
