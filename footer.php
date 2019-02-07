@@ -1,4 +1,4 @@
-    <div class="button_container uk-position-fixed uk-position-bottom-right">
+<div class="button_container uk-position-fixed uk-position-bottom-right">
         <a class="el-link uk-icon-button uk-icon uk-navbar-toggle uk-margin-medium-right uk-margin-small-bottom"
            href="#modal-full"  style="box-shadow: 0 10px 30px 0 rgba(0,0,0,.08);width: 20px;width: 40px;padding-left: 0px;padding-right: 0px;" uk-toggle>
             <span uk-icon="search" style="color: #fff;"></span>
@@ -35,13 +35,13 @@
         <div class="uk-container text-center uk-margin-small-top">
             <div class="uk-scrollspy-inview uk-animation-slide-bottom-medium  uk-margin-small-bottom">
 
-                <div class="copyright uk-text-meta">
-<!--                     Copyright © 2019 <?php bloginfo('name')?> • THEME BY <a href="https://www.caitongbo.com">WPMEE</a>
-                    <?php if (wpstorm('icp_num')){?><?php echo wpstorm('icp_num')?><?php }?> -->
-										© 2019 All rights reserved. 
-                    <?php if (wpstorm('icp_num')){?><?php echo wpstorm('icp_num')?><?php }?>
-                </div>
+                              <div class="copyright uk-text-meta">
+<!--                     Copyright © 2019 <?php bloginfo('name')?> • Theme by <a href="https://github.com/caitongbo/light">light</a> -->
+					                    © 2019 Copyright • Theme by <a href="https://github.com/caitongbo/light"><?php bloginfo('name')?></a>
+						<div>
+							    <?php if (wpstorm('icp_num')){?><?php echo wpstorm('icp_num')?><?php }?>
 
+					</div>                </div>
             </div>
         </div>
 
@@ -55,9 +55,12 @@
             <div class="uk-scrollspy-inview uk-animation-slide-bottom-medium  uk-margin-small-bottom">
 
                 <div class="copyright uk-text-meta">
-<!--                     Copyright © 2019 <?php bloginfo('name')?> • THEME BY <a href="https://www.caitongbo.com">WPMEE</a> -->
-					© 2019 All rights reserved. 
-                    <?php if (wpstorm('icp_num')){?><?php echo wpstorm('icp_num')?><?php }?>
+<!--                     Copyright © 2019 <?php bloginfo('name')?> • Theme by <a href="https://github.com/caitongbo/light">light</a> -->
+					                    © 2019 Copyright • Theme by <a href="https://github.com/caitongbo/light"><?php bloginfo('name')?></a>
+						<div>
+							    <?php if (wpstorm('icp_num')){?><?php echo wpstorm('icp_num')?><?php }?>
+
+					</div>
                 </div>
 
             </div>
