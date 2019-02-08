@@ -25,7 +25,7 @@
                 <div class="uk-width-1-1  uk-visible@m uk-padding-large uk-padding-remove-vertical uk-text-center">
                     <?php if(is_array(cs_get_option('friend_link') )):?>
                     <?php foreach ( cs_get_option('friend_link') as $value ):?>
-                    <a class="uk-h6 uk-margin-small-right uk-link-muted uk-text-meta" href="<?php echo $value['link']?>"> <?php echo $value['name']?></a>/
+                    <a class="uk-h6 uk-margin-small-right uk-link-muted uk-text-meta" href="<?php echo $value['link']?>"> <?php echo $value['name']?></a>·
                     <?php endforeach;endif;?>
                 </div>
 

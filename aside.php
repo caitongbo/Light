@@ -25,7 +25,7 @@
                     </div>
 					<!-- 					weixin -->
 					<div class="uk-width-expand"><a class="el-link uk-button-primary uk-icon-button social weixin" 
-href="javascript:" title="微信"><img class="qrcode" src="https://www.caitongbo.com/wp-content/uploads/2019/02/2019020708035038.jpg">
+href="javascript:" title="微信"><img class="qrcode" src="https://www.caitongbo.com/wp-content/uploads/2019/02/2019020808483741.jpg">
    <span class="uk-icon uk-icon-image " 
 style="filter:invert(1);background-image: url('https://www.caitongbo.com/wp-content/themes/light/static/images/weixin.svg');"></span>
                         </a>

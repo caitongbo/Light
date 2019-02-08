@@ -7037,6 +7037,7 @@ ul.uk-nav-sub {
 .uk-modal-full .uk-modal-dialog {
     margin:0;
     width:100%;
+    min-height:50%!important;
     max-width:100%;
     transform:translateY(0)
 }
@@ -10488,7 +10489,7 @@ body {
  }
 
 .article_title:before{
-    content:'##';
+/*     content:'##'; */
 }
 .font-size-lower{
   font-size:0.7em;
@@ -10530,7 +10531,7 @@ body {
   transform: scale(0);
   transform-origin: top right;
   opacity: 0;
-  border: solid #5750e2f2;
+/*   border: solid #5750e2f2; */
   border-radius: .25rem;
   -webkit-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
